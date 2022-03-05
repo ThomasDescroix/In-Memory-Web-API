@@ -1,0 +1,5 @@
+<div *ngIf="cat$ | async as cats">
+  <div *ngFor="let cat of cats">
+    <p>{{cat.name}}</p>
+  </div>
+</div>
